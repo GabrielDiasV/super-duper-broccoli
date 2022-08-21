@@ -1,0 +1,49 @@
+.heading {
+    transition: all 0.3s ease-in-out;
+}
+.heading:hover {
+    background: red;
+}
+a {
+    color: orange;
+}
+a:link {
+    color:pink;
+}
+a:visited {
+    color:green;
+}
+a:hover{
+    color:darkblue;
+    text-decoration:none;
+}
+.texto:focus{
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.5);
+    outline: none;
+    border: 1px solid rgba(0,0,0);
+}
+.texto2:disabled{
+    background-color: purple;
+    cursor:not-allowed;
+}
+input:checked + p{
+    background:red;
+}
+div ul li:first-child{
+    background:red;
+}
+ul li:not(.segundo){
+    color:pink;
+}
+input:not(:checked) + p{
+    background:brown;
+}
+ol li:nth-child(2n + 3){
+    background-color:darkseagreen;
+}
+ol li:nth-child(9){
+    background-color:deeppink;
+}
+ol li:nth-child(even){
+    background-color:purple;
+}
